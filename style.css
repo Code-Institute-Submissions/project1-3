@@ -1,0 +1,27 @@
+    .row {
+        background-color: black;
+    }
+    .grey {
+        background-color: grey;
+    }
+    .black {
+        background-color: black;
+    }
+    .gold {
+        background-color:gold;
+    }
+    .menu div {
+        height: 20vh;
+    }
+    .mainc div {
+        height: 60vh;
+    }
+    .footer div {
+        height: 20vh;
+    }
+    .menu-settings a {
+        color: black;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
