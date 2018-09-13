@@ -11,13 +11,15 @@
     .row {
         background-color: black;
     }
-    .blue {
-        background-color: blue;
+    .grey {
+        background-color: grey;
     }
-    .pink {
-        background-color: pink;
+    .black {
+        background-color: black;
     }
-    
+    .gold {
+        background-color:gold;
+    }
     .menu div {
         height: 20vh;
     }
@@ -30,19 +32,40 @@
 </style>
 <div class="container-fluid">
     <div class="row menu">
-        <div class="col-md-3 blue">a</div>
-        <div class="col-md-6 pink">v</div>
-        <div class="col-md-3 blue">c</div>
+        <div class="col-md-2 black">a</div>
+        <div class="col-md-8 gold">
+            <!-- START navigation bar-->
+            
+            
+            <nav class="navbar navbar-inverse">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#">60's Rock Band</a>
+                </div>
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">Page 1</a></li>
+                  <li><a href="#">Page 2</a></li>
+                  <li><a href="#">Page 3</a></li>
+                </ul>
+              </div>
+            </nav>
+        </div>
+        <!-- END navigation bar-->
+        
+        
+            
+        <div class="col-md-2 black">c</div>
     </div>
     <div class="row mainc">
-        <div class="col-md-3">d</div>
-        <div class="col-md-6">x</div>
-        <div class="col-md-3">c</div>
+        <div class="col-md-2 gold">d</div>
+        <div class="col-md-8 black">x</div>
+        <div class="col-md-2 black">c</div>
     </div>
     <div class="row footer">
-        <div class="col-md-3">s</div>
-        <div class="col-md-6">s</div>
-        <div class="col-md-3">c</div>
+        <div class="col-md-2">s</div>
+        <div class="col-md-8">s</div>
+        <div class="col-md-2">c</div>
     </div>
 </div>
 
