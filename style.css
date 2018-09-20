@@ -19,11 +19,40 @@
     .footer div {
         height: 20vh;
     }
+
+@media only screen and (max-width: 2768px) {
+    .menu-settings {
+        display: block;
+    }
+    .topnav {
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .topnav {
+        display: block;
+        float: right;
+    }
+    .menu-settings {
+        display: none;
+    }
+    .menu div {
+        height: 10vh;
+    }
+    .hide-mobile {
+        height: 1vh;
+        display: none;
+    }
+    .mainc div {
+        height: 90vh;
+    }
+}
     .menu-settings a {
         color: black;
         font-family: "Times New Roman", Times, serif;
         font-size: 30px;
         font-weight: bold;
+        
         
     }
     .band-image {
@@ -46,10 +75,11 @@
       
     }
     .bottom-images:hover {
-        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
         filter: grayscale(0%);        
     }
     .content-div {
         padding: 10%;
         color: silver;
+        overflow-y: scroll;
     }
