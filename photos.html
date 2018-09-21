@@ -7,25 +7,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript" src="script.js"></script>
 <body>
 
 
 
 
 <div class="container-fluid">
+
+
+    
     <div class="row menu">
-        <div class="col-md-2 black image-top"></div>
+        <div class="col-md-2 black image-top">
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                <i class="mobile-navbar fa fa-bars fa-2x" style="color:white"></i>
+            </a>    
+            <div id="mobile-navbar">
+        
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="media.html"> Media</a>
+                <a href="photos.html"> Photos</a> 
+                <a href="social.html">Social</a>
+            </div>            
+        </div>
         <div class="col-md-8 gold" role="navigation">
-            <div class="topnav">
-              <a class="topnav" href="index.html">AaAAA</a>
-              <a href="about.html">AAA Us </a>
-              <a href="media.html"> AA</a> 
-              <a href="photos.html"> Photos</a> 
-              <a href="social.html">Social</a> 
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars topnav"></i>
-              </a>
-            </div>
+
+            
             
             <!-- START navigation bar-->
             <div class="d-flex menu-settings">
