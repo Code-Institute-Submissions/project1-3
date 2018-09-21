@@ -20,24 +20,58 @@
         height: 20vh;
     }
 
+    #mobile-navbar {
+        display: none ;
+
+    }
+    #mobile-navbar a {
+        display: none;
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+        padding-right: 6px;
+    }
+    .mobile-navbar {
+
+        display: none ;
+
+
+    }
+
+
 @media only screen and (max-width: 2768px) {
     .menu-settings {
         display: block;
     }
-    .topnav {
+    .mobile-navbar {
         display: none;
     }
 }
 @media only screen and (max-width: 600px) {
-    .topnav {
+    .image-top div {
+        height: 40vh;
+    }
+    .mobile-navbar {
         display: block;
-        float: right;
+
+
+    }
+    #mobile-navbar {
+       height: 200px;
+       width: 70%;
+
+
+    }
+    #mobile-navbar a {
+        display: inline-block;
+        
+
     }
     .menu-settings {
         display: none;
     }
-    .menu div {
-        height: 10vh;
+    .menu {
+        height: 15vh;
     }
     .hide-mobile {
         height: 1vh;
