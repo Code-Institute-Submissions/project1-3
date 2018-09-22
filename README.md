@@ -14,7 +14,7 @@ The goal of the website is to allow the fans to see photos of the band, connect 
  
 ### Existing Features
 
-Allows the user to see appropriate content when clicking appropriate link
+Allows the user to see appropriate content when clicking on an appropriate link
 
 ### Features Left to Implement
 - Availibility 'calendar' could be implemented in Javascript, fetching availibity data from a text file that would be easier to edit than directly in the html file.
@@ -25,6 +25,7 @@ Allows the user to see appropriate content when clicking appropriate link
 - CSS (https://www.w3.org/)
 - Bootstrap (http://getbootstrap.com/)
 - Javascript (https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- Font Awesome (https://fontawesome.com/)
 
 
 ## Testing
@@ -34,17 +35,15 @@ Allows the user to see appropriate content when clicking appropriate link
 3. Images on the bottom change color when you mouseover them, they also display name tooltip.
 
 After deploying the project to Github Pages some media files won't load. Might be temporary (https://taigatenori.github.io/project1/index.html)
+- this is fixed now, some paths had a forward slash ('/') in the beggining, which was working fine locally but not when deployed
 
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+Deployed version is the development version - uses 'master' branch from GitHub.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+I've started this project using Cloud9, then linked it to a repository on GitHub. From there project settings had an option to host my master branch on [GitHub Pages](https://taigatenori.github.io/project1/index.html)
 
 
 ## Credits
@@ -57,4 +56,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from CodeInstitute project outline.
