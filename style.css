@@ -57,23 +57,30 @@
 @media only screen and (max-width: 765px) {
     .image-top div {
         height: 40vh;
+
     }
     .mobile-navbar {
+
         display: block;
+        position: relative;
+        width: 100%;
 
 
     }
     #mobile-navbar {
-       height: 200px;
-       width: 70%;
 
+        background-color: black;
+        display: none;
+        width: 100%;
 
     }
     #mobile-navbar a {
-        display: inline-block;
         
-
+        display: block;
+        padding-top: 10px;
     }
+
+    
     .menu-settings {
         display: none;
     }
@@ -84,10 +91,11 @@
         height: 1vh;
         display: none;
     }
+}
     .mainc div {
         height: 90vh;
     }
-}
+
     .menu-settings a {
         color: black;
         font-family: "Times New Roman", Times, serif;
@@ -105,6 +113,11 @@
         background-image: url("media/band-assets/images/monkees.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;    
+        z-index: 999;
+        display: inline-block;
+        position: relative;
+        width: 100%;
+
     }
     .bottom-images {
         
