@@ -54,7 +54,7 @@
         display: none;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 765px) {
     .image-top div {
         height: 40vh;
     }
@@ -123,4 +123,8 @@
         padding: 10%;
         color: silver;
         overflow-y: scroll;
+    }
+    .social-img {
+        width: 300px;
+        height: 100px;
     }
