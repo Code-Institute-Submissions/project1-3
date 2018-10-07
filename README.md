@@ -1,6 +1,8 @@
 # 60's Rock Band Website Project
 
 A simple website for a 60s rock band
+
+See the live version on [Github Pages](https://taigatenori.github.io/project1/index.html)
  
 ## UX
 
@@ -25,7 +27,7 @@ Allows the user to see appropriate content when clicking on an appropriate link
 - CSS (https://www.w3.org/)
 - Bootstrap (http://getbootstrap.com/)
 - Javascript (https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- Font Awesome (https://fontawesome.com/)
+
 
 
 ## Testing
@@ -39,14 +41,14 @@ After deploying the project to Github Pages some media files won't load. Might b
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
 Deployed version is the development version - uses 'master' branch from GitHub.
 
 I've started this project using Cloud9, then linked it to a repository on GitHub. From there project settings had an option to host my master branch on [GitHub Pages](https://taigatenori.github.io/project1/index.html)
 
 
 ## Credits
+- Nishant Kumar (help with testing the website)
+- Font Awesome (https://fontawesome.com/) (for being awesome)
 
 ### Content
 - The text for section About Us was copied from the [Wikipedia](https://en.wikipedia.org/wiki/The_Monkees)
