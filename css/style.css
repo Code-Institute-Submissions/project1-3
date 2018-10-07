@@ -105,12 +105,12 @@
     
 }
 .band-image {
-    background-image: url("media/band-assets/images/band.jpg");
+    background-image: url("../media/band-assets/images/band.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .image-top {
-    background-image: url("media/band-assets/images/monkees.jpg");
+    background-image: url("../media/band-assets/images/monkees.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;    
     z-index: 999;
