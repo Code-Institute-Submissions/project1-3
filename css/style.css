@@ -135,7 +135,7 @@
 .content-div {
     padding: 10%;
     color: silver;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 .social-img {
     width: 300px;
