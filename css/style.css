@@ -92,52 +92,52 @@
         display: none;
     }
 }
-    .mainc div {
-        height: 90vh;
-    }
+.mainc div {
+    height: 90vh;
+}
 
-    .menu-settings a {
-        color: black;
-        font-family: "Times New Roman", Times, serif;
-        font-size: 30px;
-        font-weight: bold;
-        
-        
-    }
-    .band-image {
-        background-image: url("media/band-assets/images/band.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-    }
-    .image-top {
-        background-image: url("media/band-assets/images/monkees.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%;    
-        z-index: 999;
-        display: inline-block;
-        position: relative;
-        width: 100%;
+.menu-settings a {
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+    
+}
+.band-image {
+    background-image: url("media/band-assets/images/band.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.image-top {
+    background-image: url("media/band-assets/images/monkees.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+    z-index: 999;
+    display: inline-block;
+    position: relative;
+    width: 100%;
 
-    }
-    .bottom-images {
-        
-        float: left;
-        width: 25%;
-        height: 100%;
-        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-        filter: grayscale(100%);
-      
-    }
-    .bottom-images:hover {
-        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-        filter: grayscale(0%);        
-    }
-    .content-div {
-        padding: 10%;
-        color: silver;
-        overflow-y: scroll;
-    }
-    .social-img {
-        width: 300px;
-        height: 100px;
-    }
+}
+.bottom-images {
+    
+    float: left;
+    width: 25%;
+    height: 100%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  
+}
+.bottom-images:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);        
+}
+.content-div {
+    padding: 10%;
+    color: silver;
+    overflow-y: scroll;
+}
+.social-img {
+    width: 300px;
+    height: 100px;
+}
